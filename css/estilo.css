@@ -4,11 +4,16 @@ body {
     padding: 0;
     background-color: #fff;
     color: #333;
+    padding-top: 80px; /* Espacio en la parte superior para separar el contenido del logo */
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
 }
 
 .header {
     text-align: center;
-    padding: 20px;
+    padding: 20px; /* Ajusta el padding según sea necesario */
+    background-color: #fff;
 }
 
 .header img {
@@ -20,10 +25,11 @@ body {
     padding: 10px 0;
     border-bottom: 1px solid #ccc;
     background-color: #fff;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 1000;
+    position: fixed; /* Mantiene la barra de navegación en la parte superior */
+    width: 100%; /* Asegúrate de que ocupe todo el ancho */
+    top: 120px; /* Ajusta esto para que esté justo debajo de la imagen del logo */
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+    background-color: rgba(255, 255, 255, 0.9);
 }
 
 .nav a {
@@ -40,7 +46,8 @@ body {
 .content {
     display: flex;
     justify-content: center;
-    padding: 80px 20px 20px; /* Adjust top padding to account for fixed header */
+    padding: 80px 20px 20px;
+    background-color: #fff; /* Asegúrate de que el fondo blanco cubra todo el contenido */
 }
 
 .sidebar {
@@ -134,4 +141,18 @@ body {
 
 .footer a:hover {
     color: #7ABA96;
+}
+
+.logo-container {
+    text-align: center; /* Centra la imagen del logo */
+    position: fixed; /* Mantiene la imagen del logo en la parte superior */
+    top: 0; /* Posición en la parte superior */
+    left: 50%; /* Centra horizontalmente */
+    transform: translateX(-50%); /* Ajusta el centro */
+    z-index: 2000; /* Asegura que esté por encima de otros elementos */
+    margin-bottom: 20px; /* Espacio debajo de la imagen del logo */
+    background-color: #fff; /* Fondo blanco detrás del logo */
+    padding: 10px; /* Espacio alrededor del logo */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra opcional para resaltar el logo */
+    background-color: rgba(255, 255, 255, 0.8);
 }
