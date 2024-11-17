@@ -1,227 +1,93 @@
-<html>
-  <head>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Delicias Kitchen</title>
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-      rel="stylesheet"
-    />
-    <style>
-      body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        background-color: #fff;
-        color: #333;
-      }
-      .header {
-        text-align: center;
-        padding: 20px;
-      }
-      .header img {
-        max-width: 100%;
-      }
-      .nav {
-        text-align: center;
-        padding: 10px 0;
-        border-bottom: 1px solid #ccc;
-      }
-      .nav a {
-        margin: 0 15px;
-        text-decoration: none;
-        color: #333;
-      }
-      .content {
-        display: flex;
-        justify-content: center;
-        padding: 20px;
-      }
-      .sidebar {
-        width: 25%;
-        padding: 20px;
-      }
-      .main-content {
-        width: 75%;
-        padding: 20px;
-      }
-      .about-me,
-      .subscribe {
-        text-align: center;
-        margin-bottom: 20px;
-      }
-      .about-me img,
-      .subscribe img {
-        border-radius: 50%;
-        width: 150px;
-        height: 150px;
-      }
-      .subscribe img {
-        border-radius: 0;
-        width: 100%;
-        height: auto;
-      }
-      .post {
-        margin-bottom: 20px;
-        text-align: center;
-      }
-      .post img {
-        width: 100%;
-        height: auto;
-      }
-      .post-title {
-        font-size: 18px;
-        font-weight: bold;
-        margin: 10px 0;
-      }
-      .post-date {
-        font-size: 14px;
-        color: #999;
-        margin-bottom: 10px;
-      }
-      .post-container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-      }
-      .post {
-        width: 45%;
-        margin: 10px;
-      }
-      .footer {
-        background-color: #333;
-        color: #fff;
-        text-align: center;
-        padding: 20px;
-      }
-      .footer a {
-        color: #fff;
-        margin: 0 10px;
-        text-decoration: none;
-      }
-    </style>
-  </head>
-  <body>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
     <div class="header">
-      <img
-        alt="Delicias Kitchen Logo"
-        height="100"
-        src="https://storage.googleapis.com/a1aa/image/loAcFPEwKAr1Kxf2I3LkjnOPnpGdxf4E3WvwmBly4SR6t7xTA.jpg"
-        width="300"
-      />
-      <h1>Delicias Kitchen</h1>
-      <p>vegetarian &amp; healthy</p>
+        <img alt="Delicias Kitchen Logo" height="100" src="imagenes/Logo-Delicias.png" width="300" />
+        <h1>Delicias Kitchen</h1>
+        <p>vegetarian &amp; healthy</p>
     </div>
     <div class="nav">
-      <a href="#"> INICIO </a>
-      <a href="#"> SOBRE MÍ </a>
-      <a href="#"> RECETAS </a>
-      <a href="#"> CONTACTO </a>
-      <a href="#"> OTRAS COSAS </a>
+        <a href="#">INICIO</a>
+        <a href="listado/listado.html">SOBRE MÍ</a>
+        <a href="receta/receta.html">RECETAS</a>
+        <a href="contacto/contacto.html">CONTACTO</a>
+        <a href="#">OTRAS COSAS</a>
     </div>
     <div class="content">
-      <div class="sidebar">
-        <div class="about-me">
-          <img
-            alt="About Me Image"
-            height="150"
-            src="..\imagenes\sobremi.jpg"
-            width="150"
-          />
-          <p>
-            Hola, bienvenido/a a mi blog, un espacio donde quiero compartir mis
-            recetas vegetarianas y veganas favoritas...
-          </p>
-        </div>
-        <div class="subscribe">
-          <img
-            alt="Subscribe Image"
-            height="300"
-            src="https://storage.googleapis.com/a1aa/image/aY87v4i3aMptOlwjulTY0fFAHbjQcnTuc5Mn9eI2sRfEc3jnA.jpg"
-            width="200"
-          />
-          <p>
-            Y consigue GRATIS mi eBook con 10 recetas exclusivas con
-            superalimentos.
-          </p>
-          <button>Apúntame</button>
-        </div>
-      </div>
-      <div class="main-content">
-        <div class="post-container">
-          <div class="post">
-            <img
-              alt="Pasta con salsa de coliflor y pimienta de Jamaica"
-              height="200"
-              src="https://storage.googleapis.com/a1aa/image/rs7fZ1r9TByBEKI8ufeL2tEvIUDY5RXcQurf9ek19immvdPeE.jpg"
-              width="300"
-            />
-            <div class="post-title">
-              Pasta con salsa de coliflor y pimienta de Jamaica
+        <div class="sidebar">
+            <div class="about-me">
+                <img alt="About Me Image" height="150" src="imagenes/sobremi.jpg" width="150" />
+                <p>
+                    Hola, bienvenido/a a mi blog, un espacio donde quiero compartir mis recetas vegetarianas y veganas favoritas...
+                </p>
             </div>
-            <div class="post-date">13 marzo, 2019</div>
-            <p>
-              Una salsa vegana para la pasta, tan sabrosa y cremosa que resulta
-              irresistible! Está elaborada con coliflor y con otros ingredientes
-              vegetales, que la convierten en...
-            </p>
-          </div>
-          <div class="post">
-            <img
-              alt="Galletas de avena, rosa y lima"
-              height="200"
-              src="https://storage.googleapis.com/a1aa/image/fivqiHfOuEsY7UHQt1qwjpnYqnXfFsXermbADF9igUsd3uHPB.jpg"
-              width="300"
-            />
-            <div class="post-title">Galletas de avena, rosa y lima</div>
-            <div class="post-date">12 febrero, 2019</div>
-            <p>
-              Galletas para San Valentín? Estas galletas ricas y crujientes,
-              elaboradas con avena y con un rico sabor a rosa y lima son
-              perfectas para celebrarlo!
-            </p>
-          </div>
-          <div class="post">
-            <img
-              alt="Mijo cremoso con lentejas, hortalizas y shiitake"
-              height="200"
-              src="https://storage.googleapis.com/a1aa/image/7umFd7V3RJaINtBhKVfDJwadMyL7Hsrb6axovpWngZ08294JA.jpg"
-              width="300"
-            />
-            <div class="post-title">
-              Mijo cremoso con lentejas, hortalizas y shiitake
+            <div class="subscribe">
+                <img alt="Subscribe Image" height="300" src="imagenes/libro.png" width="200" />
+                <p>
+                    Y consigue GRATIS mi eBook con 10 recetas exclusivas con superalimentos.
+                </p>
+                <button>Apúntame</button>
             </div>
-            <div class="post-date">1 febrero, 2019</div>
-            <p>
-              Un buen plato de mijo cremoso con lentejas y hortalizas es todo lo
-              que necesitas para templar el cuerpo este invierno! Delicioso y
-              fácil!
-            </p>
-          </div>
-          <div class="post">
-            <img
-              alt="Calabacines rellenos de arroz negro y calabaza"
-              height="200"
-              src="https://storage.googleapis.com/a1aa/image/kwIWcSHJ2dYYPZR5mbPSq1fbWYwxYiDBBwfqeqvFpeVC4uHPB.jpg"
-              width="300"
-            />
-            <div class="post-title">
-              Calabacines rellenos de arroz negro y calabaza
-            </div>
-            <div class="post-date">18 diciembre, 2018</div>
-            <p>
-              Estos calabacines rellenos de arroz negro y calabaza que te
-              propongo hoy, son la última receta que publico en el blog en...
-            </p>
-          </div>
         </div>
-      </div>
+        <div class="main-content">
+            <div class="post-container">
+                <div class="post">
+                    <img alt="Pasta con salsa de coliflor y pimienta de Jamaica" height="200" src="imagenes/Pasta.jpg" width="300" />
+                    <div class="post-title">
+                        <a href="receta/receta.html">Pasta con salsa de coliflor y pimienta de Jamaica</a>
+                    </div>
+                    <div class="post-date">13 marzo, 2019</div>
+                    <p>
+                        Una salsa vegana para la pasta, tan sabrosa y cremosa que resulta irresistible! Está elaborada con coliflor y con otros ingredientes vegetales, que la convierten en...
+                    </p>
+                </div>
+                <div class="post">
+                    <img alt="Galletas de avena, rosa y lima" height="200" src="imagenes/galletas.jpg" width="300" />
+                    <div class="post-title">
+                        <a href="receta/receta.html">Galletas de avena, rosa y lima</a>
+                    </div>
+                    <div class="post-date">12 febrero, 2019</div>
+                    <p>
+                        Galletas para San Valentín? Estas galletas ricas y crujientes, elaboradas con avena y con un rico sabor a rosa y lima son perfectas para celebrarlo!
+                    </p>
+                </div>
+                <div class="post">
+                    <img alt="Mijo cremoso con lentejas, hortalizas y shiitake" height="200" src="imagenes/mijo.jpg" width="300" />
+                    <div class="post-title">
+                        <a href="receta/receta.html">Mijo cremoso con lentejas, hortalizas y shiitake</a>
+                    </div>
+                    <div class="post-date">1 febrero, 2019</div>
+                    <p>
+                        Un buen plato de mijo cremoso con lentejas y hortalizas es todo lo que necesitas para templar el cuerpo este invierno! Delicioso y fácil!
+                    </p>
+                </div>
+                <div class="post">
+                    <img alt="Calabacines rellenos de arroz negro y calabaza" height="200" src="imagenes/calabacines.jpg" width="300" />
+                    <div class="post-title">
+                        <a href="receta/receta.html">Calabacines rellenos de arroz negro y calabaza</a>
+                    </div>
+                    <div class="post-date">18 diciembre, 2018</div>
+                    <p>
+                        Estos calabacines rellenos de arroz negro y calabaza que te propongo hoy, son la última receta que publico en el blog en...
+                    </p>
+                </div>
+            </div>
+        </div>
     </div>
     <div class="footer">
-      <a href="#"> FACEBOOK </a>
-      <a href="#"> TWITTER </a>
-      <a href="#"> INSTAGRAM </a>
-      <a href="#"> PINTEREST </a>
-      <a href="#"> EMAIL </a>
-      <a href="#"> RSS </a>
+        <a href="#">FACEBOOK</a>
+        <a href="#">TWITTER</a>
+        <a href="#">INSTAGRAM</a>
+        <a href="#">PINTEREST</a>
+        <a href="#">EMAIL</a>
+        <a href="#">RSS</a>
     </div>
-  </body>
+</body>
 </html>
