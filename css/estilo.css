@@ -4,7 +4,7 @@ body {
     padding: 0;
     background-color: #fff;
     color: #333;
-    padding-top: 80px; /* Espacio en la parte superior para separar el contenido del logo */
+    padding-top: 80px;
     background-size: cover;
     background-attachment: fixed;
     min-height: 100vh;
@@ -12,7 +12,7 @@ body {
 
 .header {
     text-align: center;
-    padding: 20px; /* Ajusta el padding según sea necesario */
+    padding: 20px;
     background-color: #fff;
 }
 
@@ -25,10 +25,10 @@ body {
     padding: 10px 0;
     border-bottom: 1px solid #ccc;
     background-color: #fff;
-    position: fixed; /* Mantiene la barra de navegación en la parte superior */
-    width: 100%; /* Asegúrate de que ocupe todo el ancho */
-    top: 120px; /* Ajusta esto para que esté justo debajo de la imagen del logo */
-    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+    position: fixed;
+    width: 100%;
+    top: 120px;
+    z-index: 1000;
     background-color: rgba(255, 255, 255, 0.9);
 }
 
@@ -47,7 +47,7 @@ body {
     display: flex;
     justify-content: center;
     padding: 80px 20px 20px;
-    background-color: #fff; /* Asegúrate de que el fondo blanco cubra todo el contenido */
+    background-color: #fff;
 }
 
 .sidebar {
@@ -144,15 +144,15 @@ body {
 }
 
 .logo-container {
-    text-align: center; /* Centra la imagen del logo */
-    position: fixed; /* Mantiene la imagen del logo en la parte superior */
-    top: 0; /* Posición en la parte superior */
-    left: 50%; /* Centra horizontalmente */
-    transform: translateX(-50%); /* Ajusta el centro */
-    z-index: 2000; /* Asegura que esté por encima de otros elementos */
-    margin-bottom: 20px; /* Espacio debajo de la imagen del logo */
-    background-color: #fff; /* Fondo blanco detrás del logo */
-    padding: 10px; /* Espacio alrededor del logo */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra opcional para resaltar el logo */
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2000;
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     background-color: rgba(255, 255, 255, 0.8);
 }
